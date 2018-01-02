@@ -1,3 +1,4 @@
-# My Awesome Book
+# 计算机编程通用逻辑知识概念
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+计算机和编程等领域内，存在很多跨语言，跨领域的通用知识，现整理出来，供参考。
+
