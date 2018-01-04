@@ -7,6 +7,7 @@
   * [命令行终端](computer_program/cmd_shell_terminal.md)
   * [Help查看帮助信息](computer_program/help_show_detail.md)
   * [Next Generation](computer_program/next_generation.md)
+  * [i18n和l10n](computer_program/i18n_l10n.md)
   * [Cheat Sheet和Handout](computer_program/cheat_sheet_handout.md)
   * [编译和链接](computer_program/compile_and_link.md)
 * [嵌入式领域](embedded/README.md)
