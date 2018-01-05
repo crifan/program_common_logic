@@ -9,6 +9,7 @@
   * [Next Generation](computer_program/next_generation.md)
   * [配置文件名为xxxfile](computer_program/config_file_xxxfile.md)
   * [i18n和l10n](computer_program/i18n_l10n.md)
+  * [知识技能图谱](computer_program/knowledge_skill_map.md)
   * [Cheat Sheet和Handout](computer_program/cheat_sheet_handout.md)
   * [编译和链接](computer_program/compile_and_link.md)
 * [嵌入式领域](embedded/README.md)

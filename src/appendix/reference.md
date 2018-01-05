@@ -7,4 +7,5 @@
 * [Python - PostgreSQL wiki](https://wiki.postgresql.org/wiki/Python)
 * [MongoDB Drivers — MongoDB Ecosystem](https://docs.mongodb.com/ecosystem/drivers/)
 * [最好用的前端开发工具之构建篇：Gulp_HTML5|CSS3_UDN技术社区](http://udn.yyuap.com/forum.php?mod=viewthread&tid=112791)
+* [StuQ - 一个新的学习方式，提升你的IT职业技能](http://www.stuq.org)
 
