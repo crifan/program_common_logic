@@ -22,6 +22,7 @@
   * [print打印](various_language/print.md)
   * [log日志](various_language/logging.md)
   * [async和wait](various_language/async_wait.md)
+  * [getter和setter](various_language/getter_setter.md)
   * [编程语言 - Python](various_language/python/README.md)
     * [adapter适配器](various_language/python/adapter.md)
 * [附录](appendix/README.md)
