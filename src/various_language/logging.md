@@ -96,9 +96,79 @@ def loggingInit(filename = None,
 
 Python的Flask中也可以打印log
 
-详见：
-* ［未解决］Flask中给app的输出到命令行中的debugger添加函数名
-* ［已解决］Flask中输出log日志到文件且自定义输出格式
+对应的代码：
+`config.py`
+```python
+############################################################
+# File Log
+############################################################
+LOG_FILE_FILENAME = "logs/sipevents.log"
+
+LOG_FILE_FORMAT = "[%(asctime)s %(levelname)s %(filename)s:%(lineno)d %(funcName)s] %(message)s"
+```
+
+`__init__.py`
+```python
+import logging
+from logging.handlers import RotatingFileHandler
+
+fileHandler = RotatingFileHandler(
+    app.config['LOG_FILE_FILENAME'],
+    maxBytes = 2*1024*1024,
+    backupCount = 3,
+    encoding = "UTF-8")
+fileHandler.setLevel(logging.DEBUG)
+
+fileLogFormatterStr = app.config["LOG_FILE_FORMAT"]
+fileLogFormatter = logging.Formatter(fileLogFormatterStr)
+fileHandler.setFormatter(fileLogFormatter)
+app.logger.addHandler(fileHandler)
+```
+
+`run.py`
+```python
+from sipevents import app
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+输出log的效果是：
+```bash
+[2016-09-02 16:59:25,938 DEBUG views.py:804 creat_event] requestMethod=GET
+```
+
+对应参数的解释是：
+
+| 参数 | 输出效果 |
+| --  | ----- |
+| %(asctime)s | 2016-09-02 16:59:25,938 |
+| %(levelname)s | DEBUG |
+| %(filename)s | views.py |
+| %(lineno)d | 804 |
+| %(funcName)s | creat_event |
+| %(message)s | requestMethod=GET |
+
+
+更加完整的参数解释是：
+
+| 参数 | 含义解释 |
+| --  | ------ |
+| %(name)s      | Logger的名字 |
+|%(levelno)s    | 数字形式的日志级别|
+| %(levelname)s | 文本形式的日志级别 |
+| %(pathname)s  | 调用日志输出函数的模块的完整路径名，可能没有 |
+| %(filename)s  | 调用日志输出函数的模块的文件名 |
+| %(module)s    | 调用日志输出函数的模块名 |
+| %(funcName)s  | 调用日志输出函数的函数名 |
+| %(lineno)d    | 调用日志输出函数的语句所在的代码行 |
+| %(created)f   | 当前时间，用UNIX标准的表示时间的浮点数表示 |
+| %(relativeCreated)d | 输出日志信息时的，自Logger创建以来的毫秒数 |
+| %(asctime)s   | 字符串形式的当前时间。默认格式是"2003-07-08 16:49:45,896"。逗号后面的是毫秒 |
+| %(thread)d    | 线程ID。可能没有 |
+| %(threadName)s| 线程名。可能没有|
+| %(process)d   | 进程ID。可能没有 |
+| %(message)s   | 用户输出的消息 |
 
 ### Swift
 

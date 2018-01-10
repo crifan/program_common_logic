@@ -8,4 +8,5 @@
 * [MongoDB Drivers — MongoDB Ecosystem](https://docs.mongodb.com/ecosystem/drivers/)
 * [最好用的前端开发工具之构建篇：Gulp_HTML5|CSS3_UDN技术社区](http://udn.yyuap.com/forum.php?mod=viewthread&tid=112791)
 * [StuQ - 一个新的学习方式，提升你的IT职业技能](http://www.stuq.org)
-
+* [［已解决］Flask中输出log日志到文件且自定义输出格式](http://www.crifan.com/flask_output_log_to_file_and_designate_format)
+* [python 日志模块 logging 详解 - leejun2005的个人页面](https://my.oschina.net/leejun2005/blog/126713)
