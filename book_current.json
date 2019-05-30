@@ -1,0 +1,19 @@
+{
+  "title": "计算机编程通用逻辑知识概念",
+  "description": "总结计算机编程通用逻辑知识概念",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "program_common_logic"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.com/gitbook/program_common_logic/website/"
+    },
+    "toolbar-button": {
+      "url": "http://book.crifan.com/books/program_common_logic/pdf/program_common_logic.pdf"
+    }
+  }
+}

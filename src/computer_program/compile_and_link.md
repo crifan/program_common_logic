@@ -6,9 +6,9 @@
 
 后来又接触过移动端开发，包括`Xcode`等IDE集成开发环境
 
-> **[info] 编辑器和IDE**
+> #### info::编辑器和IDE
 > 
-> 详见：【整理】文本编辑器和IDE集成开发环境
+> 详见：【整理Book】文本编辑器和IDE集成开发环境
 
 发现其实IDE背后都是利用了编译和链接方面的通用知识。
 
@@ -69,7 +69,7 @@
 
 比如：
 
-【已解决】Xcode9代码出错：Realm/Realm.h file not found with angled include use quotes instead
+[【已解决】Xcode9代码出错：Realm/Realm.h file not found with angled include use quotes instead](http://www.crifan.com/xcode_9_ream_h_file_not_found_with_angled_include_use_quotes_instead)
 
 期间，对于错误提示：
 
@@ -92,7 +92,7 @@
 ## Xcode中如何引入已改名的和已改变链接方式的库
 之前在：
 
-【已解决】Xcode9.2编译出错：ld library not found for -lMobClickLibrary
+[【已解决】Xcode9.2编译出错：ld library not found for -lMobClickLibrary](http://www.crifan.com/xcode_9_link_fail_ld_library_not_found_for_i_mobclicklibrary)
 
 就遇到：
 

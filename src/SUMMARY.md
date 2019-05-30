@@ -10,7 +10,7 @@
   * [i18n和l10n](computer_program/i18n_l10n.md)
   * [知识技能图谱](computer_program/knowledge_skill_map.md)
   * [编译和链接](computer_program/compile_and_link.md)
-* [嵌入式领域](embedded/README.md)
+* [硬件和嵌入式领域](hardware_embedded/README.md)
 * [上层软件领域](upper_software/README.md)
   * [debounce防抖动](upper_software/debounce.md)
   * [库/包的依赖管理工具](upper_software/package_manage_tool.md)

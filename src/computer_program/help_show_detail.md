@@ -119,9 +119,10 @@ OPTIONS:
 ```
 
 ## sftp命令不了解，用help去查看有哪些命令
+
 之前：
 
-【已解决】命令行中ftp操作上传到远程服务器crifan.com
+[【已解决】命令行中ftp操作上传到远程服务器crifan.com](http://www.crifan.comterminal_use_ftp_upload_file_to_remote_server_crifan_com)
 
 期间，对于sftp的命令有哪些不是很了解，所以可以通过help去查看：
 
