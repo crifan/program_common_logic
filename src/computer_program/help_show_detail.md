@@ -37,7 +37,7 @@ xxx是uboot的子命令，比如ls，cp，md等等
 [Carthage/Carthage: A simple, decentralized dependency manager for Cocoa](https://github.com/Carthage/Carthage#installing-carthage)
 
 ```bash
-licrifandeMacBook-Pro:QorosSales crifan$ carthage help
+licrifandeMacBook-Pro:Zzz crifan$ carthage help
 Available commands:
 
    archive           Archives built frameworks into a zip that Carthage can use
@@ -51,7 +51,7 @@ Available commands:
    update            Update and rebuild the project's dependencies
    version           Display the current version of Carthage
 
-licrifandeMacBook-Pro:QorosSales crifan$ carthage help build
+licrifandeMacBook-Pro:Zzz crifan$ carthage help build
 Build the project's dependencies
 
 [--configuration (string)]

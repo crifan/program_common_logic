@@ -1,6 +1,6 @@
 {
   "title": "计算机编程通用逻辑知识概念",
-  "description": "总结计算机编程通用逻辑知识概念",
+  "description": "计算机和编程等领域内存在很多跨语言，跨领域的通用知识，现整理出来，供参考。",
   "pluginsConfig": {
     "github-buttons": {
       "buttons": [
@@ -10,10 +10,10 @@
       ]
     },
     "sitemap-general": {
-      "prefix": "https://book.crifan.com/gitbook/program_common_logic/website/"
+      "prefix": "https://book.crifan.org/books/program_common_logic/website/"
     },
     "toolbar-button": {
-      "url": "http://book.crifan.com/books/program_common_logic/pdf/program_common_logic.pdf"
+      "url": "https://book.crifan.org/books/program_common_logic/pdf/program_common_logic.pdf"
     }
   }
 }
