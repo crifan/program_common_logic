@@ -6,9 +6,10 @@
 
 后来又接触过移动端开发，包括`Xcode`等IDE集成开发环境
 
-> #### info::编辑器和IDE
+> [!TIP|title:编辑器和IDE]
 > 
-> 详见：【整理Book】文本编辑器和IDE集成开发环境
+> 详见：
+> [编辑器和IDE总结](https://book.crifan.org/books/editor_ide_summary/website/)
 
 发现其实IDE背后都是利用了编译和链接方面的通用知识。
 
