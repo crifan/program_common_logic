@@ -2,7 +2,6 @@
 
 * [前言](README.md)
 * [计算机编程领域](computer_program/README.md)
-  * [版本号命名和版本发布](computer_program/versioning_release.md)
   * [长期支持版本](computer_program/long_term_support.md)
   * [命令行终端](computer_program/cmd_shell_terminal.md)
   * [Help查看帮助信息](computer_program/help_show_detail.md)
